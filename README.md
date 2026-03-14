@@ -1,14 +1,24 @@
-# Weather Dashboard — React + Vite + Tailwind CSS + OpenWeatherMap API
+# Weather Dashboard
 
-Search cities, view 7-day forecast, geolocation support, and weather history charts.
+Real-time weather app with 7-day forecast, animated icons, and city search.
 
 ## Tech Stack
 
-See [CODING-PLAN.md](../CODING-PLAN.md) for full implementation plan and phases.
+- **Framework**: Next.js 14 (App Router)
+- **UI**: Material UI (MUI) v5
+- **Language**: TypeScript
+- **Charts**: Recharts
+- **API**: OpenWeatherMap (Current Weather, Forecast, Geocoding)
 
-## Status
+## Features
 
-🚧 **In Progress**
+- Real-time current weather (temperature, humidity, wind, pressure, visibility)
+- 7-day forecast with animated weather icons
+- 48-hour temperature trend chart
+- City autocomplete search with geolocation fallback
+- °C / °F toggle
+- Dark / light mode
+- Fully mobile responsive
 
 ## Setup
 
@@ -20,12 +30,19 @@ cd weather-dashboard
 # Install dependencies
 npm install
 
-# Copy environment variables
-cp .env.example .env
+# Add your API key
+cp .env.example .env.local
+# Then edit .env.local and add your OpenWeatherMap API key
 
 # Start development server
 npm run dev
 ```
+
+## Environment Variables
+
+| Variable | Description |
+|---|---|
+| `OPENWEATHER_API_KEY` | Your [OpenWeatherMap](https://openweathermap.org/api) API key |
 
 ## Live Demo
 
