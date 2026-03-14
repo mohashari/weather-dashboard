@@ -44,6 +44,12 @@ npm run dev
 |---|---|
 | `OPENWEATHER_API_KEY` | Your [OpenWeatherMap](https://openweathermap.org/api) API key |
 
+## Screenshots
+
+| Dark Mode | Light Mode |
+|---|---|
+| ![Dark mode](public/screenshots/dark.png) | ![Light mode](public/screenshots/light.png) |
+
 ## Live Demo
 
 _Coming soon_
